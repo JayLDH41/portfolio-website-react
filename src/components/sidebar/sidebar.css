@@ -19,10 +19,15 @@
   row-gap: 1rem;
 }
 
-nav_link {
+.nav_link {
   font-size: 1.5rem;
   color: var(--title-color);
   font-weight: var(--font-bold);
+  transition: 0.3s;
+}
+
+.nav_link:hover {
+  color: hsl(43, 100%, 68%);
 }
 
 .copyright {
