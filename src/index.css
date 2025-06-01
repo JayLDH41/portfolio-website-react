@@ -143,6 +143,8 @@ img {
   font-weight: var(--font-bold);
   color: #fff;
   display: inline-block;
+  background-color: var(--first-color);
+  font-weight: var(--font-bold);
 }
 
 @keyframes button-push {
